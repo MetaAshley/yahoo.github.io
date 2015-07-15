@@ -12,7 +12,7 @@ To Run Locally
 5. Access the docs at `http://localhost:4000`
 
 ### Dev Note
-- `jerkyll serve --watch` will compile the Jekyll and Sass files into static assets in the **_site** folder each time a file is saved. That folder is excluded from the repo.
+- `jekyll serve --watch` will compile the Jekyll and Sass files into static assets in the **_site** folder each time a file is saved. That folder is excluded from the repo.
 - There is no easy way to use Jekyll plugins with GitHub pages, so none are used here.
 - The repositories are injected via `site.github.public_repositories` object. In production, GitHub sends it real data. For local builds, static data is used
 
